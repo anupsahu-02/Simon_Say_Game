@@ -1,0 +1,54 @@
+* {
+    text-align: center;
+}
+
+h4 {
+    text-align: left;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    height: 100%;
+    width: 500px;
+    background-color: transparent;
+}
+
+.box {
+    height: 170px;
+    width: 200px;
+    background-color: bisque;
+    margin: 5px 10px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+.yellow {
+    background-color: rgba(0, 0, 0, 0.626);
+}
+
+.red {
+    background-color: rgba(0, 0, 0, 0.663);
+}
+
+.purple {
+    background-color: rgba(0, 0, 0, 0.612);
+}
+
+.green {
+    background-color: rgba(0, 0, 0, 0.628);
+}
+
+.flash {
+    background-color: rgb(255, 255, 255);
+}
+
+.userFlash {
+    background-color: rgb(234, 25, 25);
+}
+
+.overred {
+    background-color: red;
+}
